@@ -2,7 +2,7 @@
   "name": "twitch-activity-feed-checker",
   "displayName": "Twitch activity feed checker",
   "version": "0.0.1",
-  "description": "ok",
+  "description": "Tired of not knowing which sub/follower you already thanked? Now you keep it checked.",
   "author": "lucascnunes",
   "scripts": {
     "dev": "plasmo dev",
