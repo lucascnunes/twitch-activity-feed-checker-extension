@@ -1,15 +1,13 @@
-import { useState } from "react"
-
 function IndexPopup() {
-  const [data, setData] = useState("")
-
   return (
     <div
       style={{
         minWidth: 300,
         display: "flex",
         flexDirection: "column",
-        padding: 16
+        padding: 16,
+        userSelect: "none",
+        textAlign: "center"
       }}>
       <h2
         style={{
@@ -17,21 +15,29 @@ function IndexPopup() {
           padding: 0,
           margin: 0
         }}>
-        Twitch Activity Feed Checker ☑
+        Twitch Activity Feed Checker ✅
       </h2>
-      <p
+      <div>
+        <p
+          style={{
+            fontSize: 18
+          }}>
+          Tired of not knowing which sub/follower you already thanked?
+          <br /> Now can you keep it <strong>checked</strong>!
+        </p>
+      </div>
+
+      <div
         style={{
-          fontSize: 18
+          textAlign: "center"
         }}>
-        Tired of not knowing which sub/follower you already thanked? Now you
-        keep it checked
-      </p>
-      <a
-        href="https://github.com/lucascnunes"
-        target="_blank"
-        style={{ fontSize: 16, textDecoration: "none", color: "#643cbb" }}>
-        Created with ♥️ by Lucas from 🇧🇷 Brazil
-      </a>
+        <a
+          href="https://github.com/lucascnunes"
+          target="_blank"
+          style={{ fontSize: 16, textDecoration: "none", color: "#643cbb" }}>
+          Created with ♥️ by Lucas from 🇧🇷 Brazil
+        </a>
+      </div>
     </div>
   )
 }
