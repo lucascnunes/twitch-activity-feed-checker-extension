@@ -7,6 +7,8 @@ The project is already working using a mock up that I've made of the activity fe
 
 If you're a twitch content creator feel free to send me a html file of your Twitch Activity Feed Pop-up so I can set the extension up 😅
 
+![mvp preview](https://i.imgur.com/8XY5HBV.png)
+
 ## Created with Plasmo
 
 This project was bootstrapped with [Plasmo extension Framework](https://docs.plasmo.com/)
